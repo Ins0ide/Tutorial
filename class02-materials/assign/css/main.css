@@ -24,6 +24,6 @@ html {
     margin: 0 auto;
 }
 
-header ol {
-    list-style: none;
+header ol li {
+    list-style-type: none;
 }
