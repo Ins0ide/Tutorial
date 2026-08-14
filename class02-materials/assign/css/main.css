@@ -24,6 +24,6 @@ html {
     margin: 0 auto;
 }
 
-header nav ol {
+header nav ul {
     list-style-type: none;
 }
