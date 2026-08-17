@@ -1,0 +1,33 @@
+h1 {
+    color: blue;
+    text-decoration: underline;
+    background: gold;
+}
+
+h2 {
+    color: purple;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid orange;
+}
+
+section {
+    background: gray;
+    width: 50%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+section > p {
+    color: white;
+}
+
+footer {
+    background: black;
+    border: 1px solid greenyellow;
+}
+
+footer > h3 {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
