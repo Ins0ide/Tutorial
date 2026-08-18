@@ -8,6 +8,15 @@ li {
     list-style: none;
 }
 
+.horizon-flex-ul {
+    display: flex;
+    gap: 5px;
+}
+
+.inline {
+    display: inline;
+}
+
 /* BODY */
 .container {
     background: #add8e6;
@@ -29,12 +38,21 @@ header {
     align-items: center;
 }
 
-header h1 {
+header > h1 {
     margin-bottom: 6px;
     font-style: italic;
 }
 
+
+
 /* ABOUT SECTION */
 .about {
     margin-top: 6px 0;
+}
+
+
+/* FOOTER SECTION */
+footer > nav {
+    display: flex;
+    justify-content: center;
 }
