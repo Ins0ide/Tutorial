@@ -6,6 +6,10 @@
     height: 120px;
 }
 
+html {
+    border: none;
+}
+
 header {
     width: 100%;
 }
