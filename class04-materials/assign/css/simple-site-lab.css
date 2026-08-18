@@ -24,7 +24,7 @@ p {
 /* BODY */
 .container {
     background: #add8e6;
-    height: 600px;
+    height: auto;
     margin: 10px 8px;
     border: 2px solid #008080;
     padding: 15px 10px;
@@ -58,7 +58,7 @@ div > h2 {
 .about {
     margin: 6px 0;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .about p:last-child {
@@ -68,6 +68,7 @@ div > h2 {
 .about img {
     /* float: right; */
     margin: 1em;
+    justify-self: end;
 }
 
 /* FOOTER SECTION */
