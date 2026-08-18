@@ -19,7 +19,7 @@ main {
 }
 
 main > section {
-    width: 33.3333;
+    flex: 1;
 }
 
 .lower-section {
@@ -27,7 +27,7 @@ main > section {
 }
 
 .lower-section > section {
-    width: 50%;
+    flex: 1;
 }
 
 footer {
