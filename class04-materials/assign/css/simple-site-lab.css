@@ -13,16 +13,22 @@ li {
     gap: 5px;
 }
 
-.inline {
+.inline-block {
     display: inline;
+}
+
+p {
+    text-align: left;
 }
 
 /* BODY */
 .container {
     background: #add8e6;
+    height: 600px;
     margin: 10px 8px;
     border: 2px solid #008080;
     padding: 15px 10px;
+    overflow: auto;
 }
 
 /* MAIN SECTION */
@@ -44,12 +50,25 @@ header > h1 {
 }
 
 
+div > h2 {
+    margin-top: 6px;
+}
 
 /* ABOUT SECTION */
 .about {
-    margin-top: 6px 0;
+    margin: 6px 0;
+    display: flex;
+    /* flex-wrap: wrap; */
 }
 
+.about p:last-child {
+    flex: 1;
+}
+
+.about img {
+    /* float: right; */
+    margin: 1em;
+}
 
 /* FOOTER SECTION */
 footer > nav {
