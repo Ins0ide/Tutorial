@@ -30,6 +30,7 @@ body {
 }
 
 .container {
+  height: auto;
   padding: 2rem 4rem;
   display: flex;
   flex-direction: column;
@@ -41,6 +42,7 @@ h1,
 h2 {
   margin-bottom: 1.5rem;
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 p, 
@@ -75,6 +77,20 @@ header .logo {
   color: #fff;
 }
 
+/* PARTNER SECTION */
+.partner {
+  background: #808080;
+  color: #000;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.partner-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* FOOTER */
 footer {
