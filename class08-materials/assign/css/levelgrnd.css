@@ -22,9 +22,15 @@
 /*******************************************/
 
 body {
+  margin: 0 auto;
+  max-width: 90%;
+  font-size: 62.5%;   /* This is equivalent to 10px */
 
 }
 
+h1, h2, p {
+  margin-bottom: 1.5rem;
+}
 
 /******************************************
 /* LAYOUT
@@ -32,6 +38,8 @@ body {
 header {
 
 }
+
+
 
 footer {
 
