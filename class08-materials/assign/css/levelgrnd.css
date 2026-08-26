@@ -24,22 +24,34 @@
 body {
   margin: 0 auto;
   max-width: 90%;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 62.5%;   /* This is equivalent to 10px */
 
 }
 
-h1, h2, p {
+.container {
+  padding: 2rem 4rem;
+}
+
+h1, h2 {
   margin-bottom: 1.5rem;
+  font-size: 4rem;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+/* HEADER */
+header ul {
+  display: flex;
+  list-style: none;
+  row-gap: 4px;
+  /* justify-content: space-between; */
 }
 
-
+header .logo {
+  flex: 3;
+}
 
 footer {
 
@@ -48,3 +60,8 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+button {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px 8px;
+}
