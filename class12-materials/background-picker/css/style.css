@@ -43,3 +43,17 @@ li{
 #blue{
   background: rgba(0,254,255);
 }
+
+.partyPurpleBg {
+  background: rgba(241,63,247,1);
+}
+.partyGreenBg {
+  background: rgba(0,253,81,1);
+}
+.partyBlueBg {
+  background: rgba(0,254,255);
+}
+
+.colorWhite {
+  color: #fff;
+}
