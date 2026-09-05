@@ -1,5 +1,5 @@
 // Create a default variable
-let defResult = 0;
+let total = 0;
 
 // Add event listeners to the uls
 const zero = document.querySelector("#pumpkin")
@@ -10,21 +10,21 @@ const minusTwo = document.querySelector("#cantThinkOfAnything")
 const result = document.querySelector("#placeToPutResult")
 
 zero.addEventListener('click', () => {
-  defResult = 0;
+  total = 0;
   result.innerText = 0
 });
 
 plusThree.addEventListener('click', () => {
-    addThree = defResult += 3
-    result.innerText = addThree
+    total += 3
+    result.innerText = total
 });
 
 plusNine.addEventListener('click', () => {
-    addNine = defResult += 9
-    result.innerText = addNine
+    total += 9
+    result.innerText = total
 });
 
 minusTwo.addEventListener('click', () => {
-    subtractTwo = defResult -= 2
-    result.innerText = subtractTwo
+    total -= 2
+    result.innerText = total
 });
