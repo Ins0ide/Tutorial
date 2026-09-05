@@ -8,7 +8,7 @@ const partyBlue = "rgba(0,254,255)"
 document.querySelector('#purple').addEventListener('click', () => {
     // document.querySelector('body').style.background = partyPurple
     // document.querySelector('h1').style.color = colorWhite
-    document.querySelector('body').classList.toggle('partyPurpleBg');
+    document.querySelector('body').classList.add('partyPurpleBg');
     document.querySelector('h1').classList.toggle('colorWhite');
 });
 document.querySelector('#green').addEventListener('click', () => {
