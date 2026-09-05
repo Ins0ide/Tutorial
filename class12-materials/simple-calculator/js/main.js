@@ -10,24 +10,21 @@ const minusTwo = document.querySelector("#cantThinkOfAnything")
 const result = document.querySelector("#placeToPutResult")
 
 zero.addEventListener('click', () => {
+  defResult = 0;
   result.innerText = 0
 });
 
 plusThree.addEventListener('click', () => {
-    defResult = defResult += 3
-    result.innerText = defResult
+    addThree = defResult += 3
+    result.innerText = addThree
 });
 
 plusNine.addEventListener('click', () => {
-    defResult = defResult += 9
-    result.innerText = defResult
+    addNine = defResult += 9
+    result.innerText = addNine
 });
 
 minusTwo.addEventListener('click', () => {
-    defResult = defResult -= 2
-    result.innerText = defResult
+    subtractTwo = defResult -= 2
+    result.innerText = subtractTwo
 });
-
-
-
-// Create a default variable that stores all inputs of the numbers in the ul
