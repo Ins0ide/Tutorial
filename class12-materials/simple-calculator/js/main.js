@@ -1,26 +1,32 @@
-let total = 0
+// Create a default variable
+let defaultNum = 0;
 
-document.querySelector('#pumpkin').addEventListener('click', makeZero)
-document.querySelector('#dominosPizza').addEventListener('click', jumanji)
-document.querySelector('#zebra').addEventListener('click', add9)
-document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
+// Add event listeners to the uls
+const zero = document.querySelector("#pumpkin")
+const plusThree = document.querySelector("#dominosPizza")
+const plusNine = document.querySelector("#zebra")
+const minusTwo = document.querySelector("#cantThinkOfAnything")
 
-function makeZero() {
-  total = 0
-  document.querySelector('#placeToPutResult').innerText = total
-}
+const result = document.querySelector("#placeToPutResult")
 
-function jumanji() {
-  total = total + 3
-  document.querySelector('#placeToPutResult').innerText = total
-}
+zero.addEventListener('click', () => {
 
-function add9() {
-  total = total + 9
-  document.querySelector('#placeToPutResult').innerHTML = total
-}
+});
 
-function sub2() {
-  total = total - 2
-  document.querySelector('#placeToPutResult').innerHTML = total
-}
+plusThree.addEventListener('click', () => {
+    defaultNum = defaultNum += 3
+});
+
+plusNine.addEventListener('click', () => {
+    defaultNum = defaultNum += 3
+
+});
+
+minusTwo.addEventListener('click', () => {
+    defaultNum = defaultNum += 3
+
+});
+
+
+
+// Create a default variable that stores all inputs of the numbers in the ul
