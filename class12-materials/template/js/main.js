@@ -47,3 +47,17 @@ function sub2() {
   total = total - 2
   document.querySelector('#placeToPutResult').innerHTML = total
 }
+
+
+// Class Weekend Boring
+document.querySelector('#check').addEventListener('click', check)
+
+function check() {
+
+  const day = document.querySelector('#day').value
+
+  //Conditionals go here
+
+
+}
+
