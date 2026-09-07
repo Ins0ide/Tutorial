@@ -17,6 +17,6 @@ Array.from(contestants).forEach(element => element.addEventListener('click', (cl
 	if(click.target.classList.contains("rose")) {
 		document.querySelector("#nikki").classList.toggle("hidden");
 	}else {
-		alert("wrong!!!");
+		alert("Wrong!!!");
 }}));
 
