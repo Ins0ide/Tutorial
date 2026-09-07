@@ -1,11 +1,22 @@
-const contestants = document.querySelectorAll(/*INSERTCODE*/)
+// Select and Add event listeners to Claire and Nikki h2's
+const contestants = document.querySelectorAll(".contestant")
+// const nikki = document.querySelector("#nikki")
 
-Array.from(contestants).forEach(element => element.addEventListener('click', /*INSERTCODE*/))
+// Now attach functions that will make the image show for the class with rose, otherwise alert wrong for the class without rose
 
-function checkForRose(click){
-	if(click.target.classList.contains(/*INSERTCODE*/)){
-		document.querySelector('#nikki').classList.toggle(/*INSERTCODE*/)
-	}else{
-		alert("Wrong!");
-	}
-}
+// contestants.addEventListener('click', (click) => {
+// 	// alert("code not finished, yet...");
+
+// 	if(click.target.classList.contains("rose")) {
+// 		document.querySelector("#nikki").classList.toggle("hidden");
+// 	}else {
+// 		alert("wrong!!!");
+// };});
+
+Array.from(contestants).forEach(element => element.addEventListener('click', (click) => {
+	if(click.target.classList.contains("rose")) {
+		document.querySelector("#nikki").classList.toggle("hidden");
+	}else {
+		alert("wrong!!!");
+}}));
+
