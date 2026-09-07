@@ -61,6 +61,7 @@ function check() {
 
 }
 
+
 // Angry Parent Simulator (class 12 materials)
 document.querySelector('#yell').addEventListener('click', run)
 
