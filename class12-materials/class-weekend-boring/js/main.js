@@ -5,7 +5,7 @@ const check = document.querySelector("#check")
 
 check.addEventListener('click', () => {
   const input = document.querySelector("#day").value.toLowerCase();
-  // input = input.toLowercase()
+  // input = input.toLowerCase()
 
   if(input === "Tuesday" || input === "Thursday") {
     alert("BORINGGGGGG DAY!");
