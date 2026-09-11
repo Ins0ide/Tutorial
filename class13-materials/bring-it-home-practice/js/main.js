@@ -23,3 +23,6 @@ let multiply = (num1, num2, num3) => {
     }
 };
 multiply(3,6,7);
+
+
+// Loops
