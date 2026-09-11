@@ -1,6 +1,6 @@
 // *Variables*
 // Create a variable and console log the value
-let me = "sabi boy"
+let me = "Sabi boy"
 console.log(me);
 
 // Create a variable, add 10 to it, and alert the value
