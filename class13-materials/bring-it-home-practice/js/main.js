@@ -25,4 +25,15 @@ let multiply = (num1, num2, num3) => {
 multiply(3,6,7);
 
 
-// Loops
+// Loops assignment
+// 1
+const loopVal = document.querySelector("#showLoopVal")
+const carouselBtn = document.querySelector("#carousel")
+
+carouselBtn.addEventListener('click', () => {
+    const inputVal = document.querySelector("#inputVal").value
+
+    while (inputVal <= 10) {
+        loopVal.innerText = inputVal
+        inputVal++
+};});
