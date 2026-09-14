@@ -32,8 +32,9 @@ const carouselBtn = document.querySelector('#carousel')
 const showParity = document.querySelector('#showParity')
 
 carouselBtn.addEventListener('click', () => {
-    let inputVal = document.querySelector('#inputVal').value
+    let inputVal = Number(document.querySelector('#inputVal').value);
     
+    showParity.innerText = '';
     // while (inputVal <= 10) {
     //     loopVal.innerText = inputVal
         
@@ -43,13 +44,12 @@ carouselBtn.addEventListener('click', () => {
     //         inputVal++
     // };
     // 2
-    for (i = inputVal; i <= 10; i++) {
+    for (let i = inputVal; i <= 10; i++) {
         if (i % 2 === 0) {
-            showParity.innerText = `${i} is even`;
+            showParity.innerText += `${i} is even\n`;
         }else {         // else if (i % 2 === 1)    *This will give the same for an odd number without just a common "else"
-            showParity.innerText = `${i} is odd`;
+            showParity.innerText += `${i} is odd\n`;
         }
     };
 });
-
 
