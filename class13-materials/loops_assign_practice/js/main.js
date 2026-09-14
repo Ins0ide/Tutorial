@@ -58,6 +58,7 @@ carouselBtn.addEventListener('click', () => {
     }
 });
 
+
 // Multiplication Table
 // Declare variable
 const loopVal = document.querySelector('#showLoopVal')
@@ -75,6 +76,7 @@ carouselBtn.addEventListener('click', () => {
         i++
     }
 });
+
 
 // Enter Yes or No
 let input = prompt("Enter 'Yes' or 'No':");
@@ -99,3 +101,4 @@ for (let i=1; i<=100; i++) {
         loopVal.innerText += `${i}\n`
     }
 };
+
