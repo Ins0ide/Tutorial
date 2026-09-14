@@ -76,3 +76,26 @@ carouselBtn.addEventListener('click', () => {
     }
 });
 
+// Enter Yes or No
+let input = prompt("Enter 'Yes' or 'No':");
+
+    while (input !== "Yes" || input !== "No") {
+        input = prompt("Enter 'Yes' or 'No':");
+    }
+
+
+// FizzBuzz
+const loopVal = document.querySelector('#showLoopVal')
+
+for (let i=1; i<=100; i++) {
+    
+    if(i % 3 === 0 && i % 5 === 0) {
+        loopVal.innerText += "FizzBuzz\n"
+    }else if(i % 3 === 0) {
+        loopVal.innerText += "Fizz\n"
+    }else if(i % 5 === 0) {
+        loopVal.innerText += "Buzz\n"
+    }else {
+        loopVal.innerText += `${i}\n`
+    }
+};
