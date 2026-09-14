@@ -2,7 +2,7 @@
 // 1 & 2
 const loopVal = document.querySelector('#showLoopVal')
 const carouselBtn = document.querySelector('#carousel')
-const showParity = document.querySelector('#showParity')
+// const showParity = document.querySelector('#showParity')
 
 // carouselBtn.addEventListener('click', () => {
 //     let inputVal = Number(document.querySelector('#inputVal').value);
@@ -28,7 +28,7 @@ const showParity = document.querySelector('#showParity')
 // });
 
 
-// Input validation loop
+// 3 Input validation loop
 // Take value from input
 let inputVal = Number(document.querySelector('#inputVal').value);
 
@@ -42,13 +42,37 @@ carouselBtn.addEventListener('click', () => {
     // };
 
     // loopVal.innerText = "You are free..."
-    let inputVal = Number(input.value);
+    // let inputVal = Number(input.value);
 
-    while (inputVal > 100) {
+    // while (inputVal > 100) {
 
-        inputVal = Number(prompt("Enter a number less than or equal to 100"));
+    //     inputVal = Number(prompt("Enter a number less than or equal to 100"));
 
+    // }
+
+    // loopVal.innerText = "You are free";
+    let number = Number(prompt("Enter a number:"));
+
+    while (number > 100) {
+        number = Number(prompt("Enter a number:"));
     }
-
-    loopVal.innerText = "You are free";
 });
+
+// Multiplication Table
+// Declare variable
+const loopVal = document.querySelector('#showLoopVal')
+const carouselBtn = document.querySelector('#carousel')
+
+// while loop function that will give the multiplication table for the given number
+carouselBtn.addEventListener('click', () => {
+    loopVal.innerText = '';
+    let inputVal = Number(document.querySelector('#inputVal').value);
+
+    let i = 1;
+    while (i <= 10) {
+        let product = inputVal * i;
+        loopVal.innerText += `${inputVal} * ${i} = ${product}\n`;
+        i++
+    }
+});
+
